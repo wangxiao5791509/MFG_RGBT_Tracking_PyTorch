@@ -8,7 +8,8 @@ This code is developed based on Python 3.7, PyTorch 1.0, Ubuntu 16.04, Tesla P10
 
 RoI align module needs to compile first: 
 
-python setup.py build_ext --inplace  or 
+python setup.py build_ext --inplace  
+
 CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace 
 
 
