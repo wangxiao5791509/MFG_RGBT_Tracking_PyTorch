@@ -1,5 +1,5 @@
 # DFG_RGBT_Tracking_PyTorch
-Official Implementation of DFG-RGBT-Tracker with PyTorch --- <Dynamic Modality-Aware Filter Generation for RGB-T Tracking>
+Official Implementation of DFG-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
 
 [[Project]()]   [[Paper]()]  
 
