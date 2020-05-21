@@ -1,7 +1,7 @@
 # DFG_RGBT_Tracking_PyTorch
 Official Implementation of DFG-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
 
-[[Project]()]   [[Paper]()]  
+[[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()]  
 
 
 
@@ -22,16 +22,6 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 3. train the rgbt_TANet with train_rgbtTANet.py; 
 
 4. Obtain the attention maps and run the test.py for rgbt-tracking. 
-
-
-
-## Pre-trained Models: 
-Backbone network (imagenet-vgg-m.mat): [[Google-Drive]()]
-
-Our trained Models (test_CBAM_dfg_rtmdnet_trained_on_50.pth): [[Google-Drive]()]
-
-TANet (TANet_rgbt_model.pkl): [[Google-Drive]()] 
-
 
 
 
