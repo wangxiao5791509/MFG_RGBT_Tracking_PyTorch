@@ -1,6 +1,10 @@
 # DFG_RGBT_Tracking_PyTorch
 Official Implementation of DFG-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
 
+
+## Demo:
+(Red: Ours, Blue: Ground Truth, Green: RT-MDNet) 
+
 [[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()(Coming Soon)]  
 
 ![rgbt_car10](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/rgbt_car10.gif) 
