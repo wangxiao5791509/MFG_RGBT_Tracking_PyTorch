@@ -34,10 +34,9 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 
 
 ## Acknowledgement: 
-1. https://github.com/BossBobxuan/RT-MDNet 
-2. https://github.com/Ugness/PiCANet-Implementation 
-3. https://github.com/NieXC/pytorch-mula 
-4. https://github.com/luuuyi/CBAM.PyTorch 
+https://github.com/BossBobxuan/RT-MDNet 
+https://github.com/NieXC/pytorch-mula 
+https://github.com/luuuyi/CBAM.PyTorch 
 
 
 
