@@ -3,6 +3,13 @@ Official Implementation of DFG-RGBT-Tracker ("Dynamic Modality-Aware Filter Gene
 
 [[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()]  
 
+![rgbt_car10](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/rgbt_car10.gif) 
+
+![rgbt_balancebike](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/rgbt_balancebike.gif) 
+
+![rgbt_flower1](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/rgbt_flower1.gif)
+
+![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/rgbt_kite4.gif)
 
 
 ## Install: 
