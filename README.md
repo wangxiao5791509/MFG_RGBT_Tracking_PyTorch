@@ -1,8 +1,8 @@
 # DFG_RGBT_Tracking_PyTorch
-Official Implementation of DFG-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
+Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
 
 
-[[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]() (Coming Soon)] 
+[[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()] 
 
 
 ## Demo:
@@ -49,5 +49,10 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 ## Citation: 
 If you use this code for your research, please cite the following paper: 
 ~~~
-
+@article{wang2020dfgrgbttrack,
+  title={Dynamic Modality-Aware Filter Generation for RGB-T Tracking},
+  author={Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu},
+  journal={arXiv preprint},
+  year={2020}
+}
 ~~~
