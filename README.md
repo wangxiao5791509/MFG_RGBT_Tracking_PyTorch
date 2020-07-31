@@ -5,10 +5,11 @@ Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter G
 Many RGB-T trackers attempt to attain robust feature representation by utilizing an adaptive weighting scheme (or attention mechanism). Different from these works, we propose a new dynamic modality-aware filter generation module (named MFGNet) to boost the message communication between visible and thermal data by adaptively adjusting the convolutional kernels for various input images in practical tracking. Our experimental results demonstrate the advantages of our proposed MFGNet for RGB-T tracking. 
 
 
- 
-
-
 [[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()] 
+
+
+![rgbt_car10](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/pipelinev5.png) 
+
 
 
 ## Demo:
@@ -41,6 +42,14 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 
 4. Obtain the attention maps and run the test.py for rgbt-tracking. 
 
+
+
+## Results: 
+
+
+![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/results_on_rgbt210_234.png)
+
+![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/ComponentAnalysis.png)
 
 
 
