@@ -1,9 +1,9 @@
 # MFGNet_RGBT_Tracking_PyTorch
 Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch 
 
-```shell
+
 Many RGB-T trackers attempt to attain robust feature representation by utilizing an adaptive weighting scheme (or attention mechanism). Different from these works, we propose a new dynamic modality-aware filter generation module (named MFGNet) to boost the message communication between visible and thermal data by adaptively adjusting the convolutional kernels for various input images in practical tracking. Our experimental results demonstrate the advantages of our proposed MFGNet for RGB-T tracking. 
-```
+
 
  
 
