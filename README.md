@@ -1,5 +1,5 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch  [[Project](https://sites.google.com/view/dfgtrack/)]   [[Paper]()] 
+Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch  [[Project](https://sites.google.com/view/mfgrgbttrack/)]   [[Paper]()] 
 
 
 
@@ -46,12 +46,11 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 
 ## Results: 
 
-[[Pretrained Models]()]  [[Raw Results]()] 
-
-
 ![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/results_on_rgbt210_234.png)
 
 ![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/ComponentAnalysis.png)
+
+you can also download our pre-trained models and raw results for comprison: [[Pretrained Models]()]  [[Raw Results]()] 
 
 
 
