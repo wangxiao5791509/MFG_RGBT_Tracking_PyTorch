@@ -67,8 +67,8 @@ you can also download our pre-trained models and raw results for comprison: [[Pr
 ## Citation: 
 If you use this code for your research, please cite the following paper: 
 ~~~
-@article{wang2020dfgrgbttrack,
-  title={Dynamic Modality-Aware Filter Generation for RGB-T Tracking},
+@article{wang2020MFGNet,
+  title={MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking},
   author={Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu},
   journal={arXiv preprint},
   year={2020}
