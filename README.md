@@ -28,9 +28,9 @@ Many RGB-T trackers attempt to attain robust feature representation by utilizing
 This code is developed based on Python 3.7, PyTorch 1.0, CUDA 10.1, Ubuntu 16.04, Tesla P100 * 4. Install anything it warnings. 
 
 RoI align module needs to compile first: 
-
+~~~
 CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace 
-
+~~~
 
 
 ## Train and Test: 
