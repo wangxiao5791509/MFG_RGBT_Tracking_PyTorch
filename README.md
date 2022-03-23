@@ -1,5 +1,7 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official Implementation of MFGNet-RGBT-Tracker ("Dynamic Modality-Aware Filter Generation for RGB-T Tracking") with PyTorch  [[Project](https://sites.google.com/view/mfgrgbttrack/)]   [[Paper]()] 
+Official implementation of MFGNet-RGBT-Tracker using PyTorch ("MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking")  
+[[Project](https://sites.google.com/view/mfgrgbttrack/)]   
+[[Paper](https://arxiv.org/abs/2107.10433)] 
 
 
 
