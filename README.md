@@ -1,5 +1,5 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official implementation of MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking, [[Project](https://sites.google.com/view/mfgrgbttrack/)] [[Paper](https://arxiv.org/abs/2107.10433)] 
+Official implementation of **MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking**, Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu [[Project](https://sites.google.com/view/mfgrgbttrack/)] [[Paper](https://arxiv.org/abs/2107.10433)] 
 
 
 
