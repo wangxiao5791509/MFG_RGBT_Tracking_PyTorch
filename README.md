@@ -1,7 +1,5 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official implementation of MFGNet-RGBT-Tracker using PyTorch ("MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking")  
-[[Project](https://sites.google.com/view/mfgrgbttrack/)]   
-[[Paper](https://arxiv.org/abs/2107.10433)] 
+Official implementation of MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking, [[Project](https://sites.google.com/view/mfgrgbttrack/)] [[Paper](https://arxiv.org/abs/2107.10433)] 
 
 
 
@@ -60,7 +58,7 @@ you can also download our pre-trained models and raw results for comprison: [[Pr
 * https://github.com/BossBobxuan/RT-MDNet 
 * https://github.com/NieXC/pytorch-mula 
 * https://github.com/luuuyi/CBAM.PyTorch 
-
+* [Survey] "**Dynamic neural networks: A survey.**" Han, Yizeng, et al.  IEEE Transactions on Pattern Analysis and Machine Intelligence (2021). [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9560049)]
 
 
 
@@ -75,7 +73,7 @@ If you use this code for your research, please cite the following paper:
 }
 ~~~
 
-If you have any questions, feel free to contact me via email: wangx03@pcl.ac.cn 
+If you have any questions, feel free to contact me via email: **wangxiaocvpr@foxmail.com**. 
 
 
 
