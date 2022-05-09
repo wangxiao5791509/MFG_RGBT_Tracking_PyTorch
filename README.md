@@ -1,10 +1,9 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official implementation of **MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking**, Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu [[Project](https://sites.google.com/view/mfgrgbttrack/)] [[Paper](https://arxiv.org/abs/2107.10433)] 
+Official implementation of **MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking**, Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu, Accepted by IEEE TMM 2022 [[Paper](https://arxiv.org/abs/2107.10433)] 
 
 
 ## Abstract: 
-Many RGB-T trackers attempt to attain robust feature representation by utilizing an adaptive weighting scheme (or attention mechanism). Different from these works, we propose a new dynamic modality-aware filter generation module (named MFGNet) to boost the message communication between visible and thermal data by adaptively adjusting the convolutional kernels for various input images in practical tracking. Given the image pairs as input, we first encode their features with the backbone network. Then, we concatenate these feature maps and generate dynamic modality-aware filters with two independent networks. The visible and thermal filters will be used to conduct a dynamic convolutional operation on their corresponding input feature maps respectively. Inspired by residual connection, both the generated visible and thermal feature maps will be summarized with input feature maps. The augmented feature maps will be fed into the RoI align module to generate instance-level features for subsequent classification. To address issues caused by heavy occlusion, fast motion and out-of-view, we propose to conduct a joint local and global search by exploiting a new direction-aware target driven attention mechanism. The spatial and temporal recurrent neural network is used to capture the direction-aware context for accurate global attention prediction. Extensive experiments on three large-scale RGB-T tracking benchmark datasets validated the effectiveness of our proposed algorithm. 
-
+Many RGB-T trackers attempt to attain robust feature representation by utilizing an adaptive weighting scheme (or attention mechanism). Different from these works, we propose a new dynamic modality-aware filter generation module (named MFGNet) to boost the message communication between visible and thermal data by adaptively adjusting the convolutional kernels for various input images in practical tracking. Given the image pairs as input, we first encode their features with the backbone network. Then, we concatenate these feature maps and generate dynamic modality-aware filters with two independent networks. The visible and thermal filters will be used to conduct a dynamic convolutional operation on their corresponding input feature maps respectively. Inspired by residual connection, both the generated visible and thermal feature maps will be summarized with input feature maps. The augmented feature maps will be fed into the RoI align module to generate instance-level features for subsequent classification. To address issues caused by heavy occlusion, fast motion and out-of-view, we propose to conduct a joint local and global search by exploiting a new direction-aware target driven attention mechanism. The spatial and temporal recurrent neural network is used to capture the direction-aware context for accurate global attention prediction. Extensive experiments on three large-scale RGB-T tracking benchmark datasets validated the effectiveness of our proposed algorithm.
 
 
 
@@ -65,11 +64,11 @@ you can also download our pre-trained models and raw results for comprison: [[Pr
 ## Citation: 
 If you use this code for your research, please cite the following paper: 
 ~~~
-@article{wang2020MFGNet,
+@article{wang2021mfgnet,
   title={MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking},
-  author={Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu},
-  journal={arXiv preprint},
-  year={2020}
+  author={Wang, Xiao and Shu, Xiujun and Zhang, Shiliang and Jiang, Bo and Wang, Yaowei and Tian, Yonghong and Wu, Feng},
+  journal={IEEE Transactions on Multimedia},
+  year={2022}
 }
 ~~~
 
