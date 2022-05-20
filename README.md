@@ -1,5 +1,5 @@
 # MFGNet_RGBT_Tracking_PyTorch
-Official implementation of **MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking**, Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu, Accepted by IEEE TMM 2022 [[Paper](https://arxiv.org/abs/2107.10433)] 
+Official implementation of **MFGNet: Dynamic Modality-Aware Filter Generation for RGB-T Tracking**, Xiao Wang, Xiujun Shu, Shiliang Zhang, Bo Jiang, Yaowei Wang, Yonghong Tian, Feng Wu, Accepted by IEEE Transactions on Multimedia (TMM), 2022 [[Paper](https://arxiv.org/abs/2107.10433)] 
 
 
 ## Abstract: 
@@ -32,7 +32,7 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 ~~~
 
 
-## Train and Test: 
+## Training and Testing: 
 1. generate the "50.pkl" with prepro_rgbt.py as the training data; 
 
 2. train the tracker with train.py; 
@@ -49,7 +49,9 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 
 ![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/ComponentAnalysis.png)
 
-you can also download our pre-trained models and raw results for comprison: [[Pretrained Models]()]  [[Raw Results]()] 
+
+## Comparison
+Raw results for benchmark comparison: [[Raw Results]()] 
 
 
 
