@@ -47,6 +47,12 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 链接：https://pan.baidu.com/s/1Je7KB6x37Mc7ay4dCxDJvQ  提取码：AHUT 
 ``` 
 
+## All in one file: 
+All the code and models in one zip file: 
+```
+链接：https://pan.baidu.com/s/1HfyShfzV0UbSDcMbPIY3aQ 提取码：AHUT 
+```
+
 
 ## Results: 
 
