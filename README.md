@@ -42,16 +42,17 @@ CUDA_HOME=/usr/local/cuda-10.1 python setup.py build_ext --inplace
 4. Obtain the attention maps and run the test.py for rgbt-tracking. 
 
 
+## Pretrained Models (CBAM_dfg_rtmdnet_trained_on_50.pth, 20200525_directionAware_TANet_rgbt_model.pkl):  
+```
+链接：https://pan.baidu.com/s/1Je7KB6x37Mc7ay4dCxDJvQ  提取码：AHUT 
+``` 
+
 
 ## Results: 
 
 ![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/results_on_rgbt210_234.png)
 
 ![rgbt_kite4](https://github.com/wangxiao5791509/DFG_RGBT_Tracking_PyTorch/blob/master/ComponentAnalysis.png)
-
-
-## Comparison
-Raw results for benchmark comparison: [[Raw Results]()] 
 
 
 
